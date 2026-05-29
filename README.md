@@ -50,6 +50,10 @@ Early-stage framework and documentation repository.
 
 ## Role in the portfolio
 
+This is the flagship strategy repository.
+
+It documents how AI adoption can move from abstract ambition to operating reality: workflows, decision rights, rituals, KPI trees, governance interfaces and scaling models.
+
 This repository is part of a four-repo portfolio system:
 
 - `adoption-operating-system` — strategy, operating models and adoption logic
@@ -57,6 +61,5 @@ This repository is part of a four-repo portfolio system:
 - `ai-content-lab` — applied AI workflows for content and knowledge systems
 - `ai-trend-radar-lab` — learning, foresight and early signals
 
-LinkedIn is where ideas are made visible.
-GitHub is where the underlying frameworks, workflows, checklists and experiments are documented.
+Where LinkedIn introduces the idea, this repository shows the underlying system.
 The website is where the professional value proposition is packaged.
