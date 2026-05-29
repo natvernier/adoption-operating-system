@@ -23,6 +23,16 @@ The Adoption Operating System focuses on the layer between strategy and daily ex
 - human-in-the-loop models
 - value and risk tracking
 
+## Frameworks documented here
+
+- Adoption Operating System
+- AI Value & Roadmap Lens
+- Adoption KPI Trees
+- Decision Rights Maps
+- Workflow Change Models
+- Operating Rituals
+- Scaling Patterns
+
 ## What this repository may contain
 
 - adoption models
