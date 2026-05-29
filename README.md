@@ -47,3 +47,16 @@ The Adoption Operating System focuses on the layer between strategy and daily ex
 ## Current status
 
 Early-stage framework and documentation repository.
+
+## Role in the portfolio
+
+This repository is part of a four-repo portfolio system:
+
+- `adoption-operating-system` — strategy, operating models and adoption logic
+- `ai-governance-risk-toolkit` — trust, review, accountability and risk
+- `ai-content-lab` — applied AI workflows for content and knowledge systems
+- `ai-trend-radar-lab` — learning, foresight and early signals
+
+LinkedIn is where ideas are made visible.
+GitHub is where the underlying frameworks, workflows, checklists and experiments are documented.
+The website is where the professional value proposition is packaged.
