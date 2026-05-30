@@ -11,18 +11,16 @@ It connects strategic ambition with everyday workflow behavior, value creation, 
 The central question is:
 
 ```text
-What would we need to see in the work system to know that adoption is actually happening?
+What would we need to see in the work system to know that adoption is working?
 ```
 
 ## Why it matters
 
-AI and digital adoption often fail in the space between strategic ambition and everyday work.
+AI and digital adoption often fail in the gap between strategic ambition and everyday work.
 
 Organizations may provide tools, licenses, trainings, communications or pilots. These activities can support adoption, but they do not prove that work has changed.
 
-A strong adoption measurement model does not stop at activity.
-
-It asks whether:
+A strong adoption measurement model asks whether:
 
 * relevant workflows are changing
 * people are using new capabilities in meaningful situations
@@ -37,9 +35,7 @@ The Adoption KPI Tree helps organizations move from vague transformation languag
 
 ## Core principle
 
-An Adoption KPI Tree is not a reporting structure.
-
-It is a decision structure.
+An Adoption KPI Tree is a decision structure.
 
 The value of an adoption KPI is not the number itself. The value is the action the organization is willing to take when the signal changes.
 
