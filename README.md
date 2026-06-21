@@ -298,6 +298,31 @@ adoption-operating-system/
 │   ├── operating-rituals-agent.md
 │   └── adoption-handoff-agent.md
 │
+├── frameworks/
+│   ├── README.md
+│   ├── adoption-kpi-tree/
+│   ├── ai-value-roadmap-lens/
+│   ├── decision-rights-map/
+│   ├── workflow-change-model/
+│   ├── operating-rituals/
+│   └── scaling-patterns/
+│
+├── handoffs/
+│   ├── README.md
+│   ├── from-governance/
+│   └── to-content/
+│
+├── operating-layers/
+│   ├── README.md
+│   ├── strategy-and-value/
+│   ├── workflow-change/
+│   ├── decision-rights/
+│   ├── operating-rituals/
+│   ├── measurement-and-kpis/
+│   ├── governance-interface/
+│   ├── leadership-and-communication/
+│   └── scaling-and-standardization/
+│
 ├── templates/
 │   ├── README.md
 │   ├── adoption-canvas.md
@@ -305,7 +330,6 @@ adoption-operating-system/
 │   ├── workflow-change-template.md
 │   ├── decision-rights-template.md
 │   ├── operating-ritual-template.md
-│   ├── adoption-kpi-tree-template.md
 │   ├── governance-interface-template.md
 │   └── pilot-to-scale-template.md
 │
@@ -333,65 +357,64 @@ The method layer of the repository.
 
 This section defines the adoption logic: terminology, adoption principles, maturity, organizational postures and the operating-system view of AI adoption.
 
-### `01-strategy-and-value/`
+### `frameworks/`
 
-The strategic fit layer.
+The framework layer.
 
-This section helps clarify why an AI initiative matters, what value it could create, which risks may offset that value and whether it belongs on the roadmap.
+This section contains named intellectual assets and reusable models.
 
-### `02-workflow-change/`
+A framework belongs here when it has its own logic, structure, decision rules, examples, research or templates.
 
-The workflow transformation layer.
+The `adoption-kpi-tree/` is a full framework module and remains in this section. It contains the core KPI tree logic, signal categories, decision logic, templates, research and examples.
 
-This section maps how work changes when AI enters a process: current state, future state, human-AI division of work, bottlenecks, dependencies and behavior changes.
+### `operating-layers/`
 
-### `03-decision-rights/`
+The application layer of the adoption operating model.
 
-The ownership and decision layer.
+This section explains where and how adoption work happens: strategy and value, workflow change, decision rights, operating rituals, measurement, governance interfaces, leadership communication and scaling.
 
-This section clarifies who decides, who reviews, who owns risk, who approves scaling and where escalation is required.
+Operating layers can reference frameworks without duplicating them.
 
-### `04-operating-rituals/`
+For example, `operating-layers/measurement-and-kpis/` can explain the measurement layer and point to the full `frameworks/adoption-kpi-tree/` module.
 
-The rhythm layer.
+### `handoffs/`
 
-This section turns adoption into repeatable routines: review meetings, reassessment cadences, learning loops, escalation rituals and operating check-ins.
+The transition layer between repositories.
 
-### `05-measurement-and-kpis/`
+This section documents how governance work moves into adoption planning and how adoption work moves into content, communication and education workflows.
 
-The measurement layer.
+### `agent-instructions/`
 
-This section defines adoption signals, value indicators, risk indicators, behavior-change metrics and KPI trees.
+The AI-assistant use layer.
 
-The goal is to measure actual adoption, not only activity.
+This section contains instructions that could help an AI assistant apply the adoption logic, ask structured questions, create drafts, review completeness or prepare handoffs.
 
-### `06-governance-interface/`
+### `templates/`
 
-The connection between governance and daily work.
+The reusable working-format layer.
 
-This section translates risk review, human-in-the-loop logic and escalation paths into operational routines that teams can actually use.
+This section contains generic blank templates that can be used across frameworks and operating layers.
 
-### `07-leadership-and-communication/`
+Templates that belong to a complete framework remain inside that framework module.
 
-The leadership pressure and expectation layer.
+For example, the Adoption KPI Tree template belongs inside:
 
-This section addresses how leaders respond to hype, public debate, employee pressure, shadow adoption and organizational uncertainty.
+```txt
+frameworks/adoption-kpi-tree/templates/
+```
 
-It connects adoption work with internal communication, expectation management and leadership alignment.
+### `schemas/`
 
-### `08-scaling-and-standardization/`
+The structured-data layer.
 
-The scaling layer.
+This section may later contain JSON schemas or other structured formats for making adoption work more machine-readable, reusable or automatable.
 
-This section helps decide what can be standardized, what should stay local, what needs redesign and what should not scale yet.
+### `notes/`
 
-### `09-handoff-to-content/`
+The working-notes layer.
 
-The communication handoff layer.
+This section contains open questions, reading lists, backlog items and unstructured notes before they become formal frameworks, templates or operating-layer documents.
 
-This section connects adoption work to `ai-content-lab`.
-
-Once adoption logic, roles, workflows and governance interfaces are clear, the next question is how to explain, standardize and communicate them for the right audience.
 
 ## Working principles
 
