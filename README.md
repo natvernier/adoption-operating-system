@@ -4,6 +4,29 @@ A practical framework for turning AI and digital strategy into operating rituals
 
 This repository documents frameworks, templates and operating models for organizations that want AI adoption to become part of everyday work instead of remaining an abstract transformation promise.
 
+## What is in the repository today
+
+```txt
+adoption-operating-system/
+├── README.md
+├── LICENSE
+├── examples/
+│   └── fictional-kpi-tree-editorial-drafting.md
+└── frameworks/
+    ├── adoption-kpi-tree.md
+    └── adoption-kpi-tree/
+        ├── README.md
+        ├── common-measurement-mistakes.md
+        ├── role-based-adoption-signals.md
+        ├── sector-examples.md
+        ├── decision-logic/      thresholds, if-signal-then-action, interpretation patterns
+        ├── signal-categories/   eleven categories, from usage to scaling
+        ├── templates/           KPI tree, workshop, signal review, if-signal-then-action
+        └── research/            benchmarks, reading list, research map
+```
+
+Start with the [Adoption KPI Tree](frameworks/adoption-kpi-tree/README.md). To see it filled in, read the [fictional example](examples/fictional-kpi-tree-editorial-drafting.md).
+
 ## Core idea
 
 Adoption does not happen because communication becomes louder.
@@ -158,11 +181,19 @@ This repository is guided by questions such as:
 * internal communication interfaces
 * capability and role development
 
-## Frameworks documented here
+## Frameworks
+
+Available in this repository:
+
+* Adoption KPI Trees: [`frameworks/adoption-kpi-tree/`](frameworks/adoption-kpi-tree/README.md)
+
+Available elsewhere:
+
+* AI Value & Roadmap Lens: [one-page PDF on natvernier.com](https://cdn.prod.website-files.com/66ffd630ea77d3e10d970492/6980bd6cbc2009c0fa2980a4_natvernier_AVRL.pdf)
+
+Planned:
 
 * Adoption Operating System
-* AI Value & Roadmap Lens
-* Adoption KPI Trees
 * Decision Rights Maps
 * Workflow Change Models
 * Operating Rituals
@@ -171,8 +202,7 @@ This repository is guided by questions such as:
 * Pilot-to-Scale Patterns
 * Value and Risk Tracking Models
 * Reassessment Loops
-
-## What this repository may contain
+## Planned content
 
 * adoption models
 * checklists
@@ -193,7 +223,9 @@ This repository is guided by questions such as:
 
 All examples and applied scenarios in this repository are abstracted, generalized or fictionalized. They are designed to show transferable patterns, not to disclose confidential employer, client, team, stakeholder or internal process information.
 
-## Repository structure
+## Planned structure
+
+The tree below is the target structure. Only the parts listed under *What is in the repository today* exist so far.
 
 ```txt id="gnx5t5"
 adoption-operating-system/
@@ -349,7 +381,9 @@ adoption-operating-system/
     └── backlog.md
 ```
 
-## Key modules
+## Planned modules
+
+Available today: `frameworks/` with the Adoption KPI Tree. All other modules below are planned.
 
 ### `00-adoption-system/`
 
@@ -473,6 +507,14 @@ Governance handoff
 
 ## Current status
 
-Early-stage framework and documentation repository.
+Early-stage.
 
-The current focus is building reusable adoption structures, operating models, KPI trees, decision-rights maps, governance interfaces and pilot-to-scale patterns for AI-supported work.
+Available: the Adoption KPI Tree with signal categories, decision logic, templates and a research map, plus one filled example with invented data.
+
+The other modules and frameworks in this README are planned.
+
+Last updated: November 2026.
+
+## License
+
+Texts, frameworks, templates and examples: [CC BY 4.0](LICENSE). Free to use and adapt, also commercially, with credit.
